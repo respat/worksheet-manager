@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import AddLocation from './components/AddLocation'
 import Navbar from './components/Navbar'
+import Worksheet from './components/Worksheet'
 
 
 function App() {
@@ -11,8 +12,7 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <AddLocation/>
+      <Worksheet/>
     </>
   )
 }
